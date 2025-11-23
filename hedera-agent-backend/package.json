@@ -1,0 +1,30 @@
+{
+  "name": "hedera-agent-backend",
+  "version": "1.0.0",
+  "description": "Backend service responsible for funding Hedera-based AI agents.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "hedera",
+    "agent",
+    "funding"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.50.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.6.3"
+  }
+}
