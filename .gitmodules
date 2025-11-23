@@ -1,3 +1,0 @@
-[submodule "my-web-proof/lib/forge-std"]
-	path = my-web-proof/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
